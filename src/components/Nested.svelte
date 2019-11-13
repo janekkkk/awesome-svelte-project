@@ -1,1 +1,1 @@
-<h1>Nested Test</h1>
+<h1>Nested component test</h1>

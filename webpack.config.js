@@ -1,13 +1,14 @@
-const path = require('path')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
-const CopyPlugin = require('copy-webpack-plugin')
+const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 // const PreloadWebpackPlugin = require('preload-webpack-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
-const mode = process.env.NODE_ENV || 'development'
-const prod = mode === 'production'
-const pkg = require('./package.json')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin;
+const mode = process.env.NODE_ENV || 'development';
+const prod = mode === 'production';
+const pkg = require('./package.json');
 
 module.exports = env => {
   return {
@@ -72,7 +73,21 @@ module.exports = env => {
         },
         {
           test: /\.css$/,
-          use: [MiniCssExtractPlugin.loader, 'css-loader'],
+          exclude: /node_modules/,
+          use: [
+            {
+              loader: 'style-loader',
+            },
+            {
+              loader: 'css-loader',
+              options: {
+                importLoaders: 1,
+              },
+            },
+            {
+              loader: 'postcss-loader',
+            },
+          ],
         },
         {
           test: /\.pcss$/,
@@ -117,5 +132,5 @@ module.exports = env => {
       }),
     ],
     devtool: prod ? false : 'source-map',
-  }
-}
+  };
+};
