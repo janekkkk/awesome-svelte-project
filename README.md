@@ -46,6 +46,7 @@ npm run dev
 7. images, fonts and static support
 8. blazing fast loading google fonts
 9. support dynamic load pages with page.js router
+10. Tailwind functional css
 
 ---
 
