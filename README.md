@@ -1,27 +1,27 @@
 # Your first amazing Svelte project
 
-![Svelte logo](https://raw.githubusercontent.com/theartkod/webpack_svelte/master/src/assets/images/webpack_svelte.png)
+![Svelte logo](https://d2odgkulk9w7if.cloudfront.net/images/default-source/blogs/svelte-logo.png?sfvrsn=6ce40cfe_0)
 
 --- 
 
-### **Usage:**
+## Usage
 
-Clone repository:
+### Simple
+No fuzz start template.
 
+`npx degit sveltejs/template awesome-svelte-project`
+`cd awesome-svelte-project`
+`npm install`
+`npm run dev`
+
+### Extensive
+An more extensive start template with some nice dev features included.
 `git clone https://github.com/janekkkk/awesome-svelte-project`
+`cd awesome-svelte-project`
+`npm install`
+`npm run dev`
 
-Go to cloned directory and install dependencies:
-
-`cd awesome-svelte-project && npm i`
-
-Run for development: `npm run dev` \
-Build for production: `npm run build` \
-Analyze bundle: `npm run analyze` \
-Show app size: `npm run size`
-
-***
-
-### **Features:**
+#### Features
 
 1. live reloading
 2. analyze mode for detecting large dependencies
@@ -35,14 +35,14 @@ Show app size: `npm run size`
 
 ---
 
-### **More info:**
+### More info on Svelte
 
 - [Introduction](https://daveceddia.com/svelte-intro/)
 - [Docs](https://svelte.dev/docs)
 - [Subreddit](https://www.reddit.com/r/sveltejs/)
 - [Awesome things](https://github.com/CalvinWalzel/awesome-svelte) related to Svelte
 
-### **Project ideas:**
+### Project ideas
 
 - [Public API's to use](https://github.com/public-apis/public-apis)
 - [Inspiration](https://www.freecodecamp.org/news/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d/)
