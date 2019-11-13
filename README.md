@@ -4,22 +4,36 @@
 
 --- 
 
+## Prerequisites
+Just [Node](https://nodejs.org/en/) :)
+
+If you've already installed Node, a recommendation is installing the latest LTS version.
+```
+npm install -g n
+n lts
+```
+
+
 ## Usage
 
 ### Simple
 No fuzz start template.
 
-`npx degit sveltejs/template awesome-svelte-project`
-`cd awesome-svelte-project`
-`npm install`
-`npm run dev`
+``` 
+npx degit sveltejs/template awesome-svelte-project
+cd awesome-svelte-project
+npm install
+npm run dev
+```
 
 ### Extensive
 An more extensive start template with some nice dev features included.
-`git clone https://github.com/janekkkk/awesome-svelte-project`
-`cd awesome-svelte-project`
-`npm install`
-`npm run dev`
+``` 
+git clone https://github.com/janekkkk/awesome-svelte-project
+cd awesome-svelte-project
+npm install
+npm run dev
+```
 
 #### Features
 
