@@ -1,6 +1,6 @@
-# Template for complex building SPA using Svelte
+# Your first amazing Svelte project
 
-![enter image description here](https://raw.githubusercontent.com/theartkod/webpack_svelte/master/src/assets/images/webpack_svelte.png)
+![Svelte logo](https://raw.githubusercontent.com/theartkod/webpack_svelte/master/src/assets/images/webpack_svelte.png)
 
 --- 
 
@@ -8,11 +8,11 @@
 
 Clone repository:
 
-`git clone https://github.com/theartkod/webpack_svelte.git`
+`git clone https://github.com/janekkkk/awesome-svelte-project`
 
 Go to cloned directory and install dependencies:
 
-`npm ci` or `npm i`
+`cd awesome-svelte-project && npm i`
 
 Run for development: `npm run dev` \
 Build for production: `npm run build` \
@@ -35,10 +35,16 @@ Show app size: `npm run size`
 
 ---
 
-### **Coming soon:**
+### **More info:**
 
+- [Introduction](https://daveceddia.com/svelte-intro/)
+- [Docs](https://svelte.dev/docs)
+- [Subreddit](https://www.reddit.com/r/sveltejs/)
+- [Awesome things](https://github.com/CalvinWalzel/awesome-svelte) related to Svelte
 
-- [ ] Unit testing
-- [ ] Deep integration router
+### **Project ideas:**
 
+- [Public API's to use](https://github.com/public-apis/public-apis)
+- [Inspiration](https://www.freecodecamp.org/news/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d/)
+- [More inspiration](https://github.com/karan/Projects#web)
 
